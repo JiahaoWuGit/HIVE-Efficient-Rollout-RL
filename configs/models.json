@@ -1,0 +1,7 @@
+{
+  "qwen25-math-1.5b": {"model_path": "Qwen/Qwen2.5-Math-1.5B", "context_length": 4096, "train_prompts": 256, "candidate_prompts": 384},
+  "qwen25-math-7b": {"model_path": "Qwen/Qwen2.5-Math-7B", "context_length": 4096, "train_prompts": 256, "candidate_prompts": 384},
+  "deepseek-qwen-1.5b": {"model_path": "deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B", "context_length": 8192, "train_prompts": 128, "candidate_prompts": 192},
+  "qwen3-4b-base": {"model_path": null, "context_length": 8192, "train_prompts": 256, "candidate_prompts": 384},
+  "llama32-3b-instruct": {"model_path": "meta-llama/Llama-3.2-3B-Instruct", "context_length": 8192, "train_prompts": 256, "candidate_prompts": 384}
+}

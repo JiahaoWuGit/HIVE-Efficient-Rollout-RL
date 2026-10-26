@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "hive-rl"
+version = "0.1.0"
+description = "HIVE: history-informed and online-verified prompt selection for efficient RL"
+readme = "README.md"
+requires-python = ">=3.11,<3.12"
+license = {file = "LICENSE"}
+dynamic = ["dependencies"]
+
+[project.urls]
+Paper = "https://arxiv.org/abs/2603.25184"
+Repository = "https://github.com/JiahaoWuGit/HIVE-Efficient-Rollout-RL"
+Issues = "https://github.com/JiahaoWuGit/HIVE-Efficient-Rollout-RL/issues"
+
+[tool.setuptools.dynamic]
+dependencies = {file = ["requirements.txt"]}
+
+[tool.setuptools.packages.find]
+include = ["verl*"]
+
+[tool.setuptools.package-data]
+verl = ["version/*", "trainer/config/*.yaml", "trainer/config/*.md", "trainer/runtime_env.yaml"]
