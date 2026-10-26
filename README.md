@@ -2,8 +2,6 @@
 
 # Train at the Moving Edge: Efficient RL for Large Reasoning Models via Rollout Selection
 
-**NeurIPS 2026**
-
 Jiahao Wu\*, Ning Lu\*, Shengcai Liu†, Kun Wang, Yanting Yang,<br>
 Baijiong Lin, Chen Jason Zhang, Qing Li, Ke Tang
 
